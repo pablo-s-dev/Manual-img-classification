@@ -14,7 +14,6 @@ for arg in args:
     if("--" in arg):
         args.pop(args.index(arg))
         if("--json" == arg):
-            
             text_extension = ".json"
         if("--csv" == arg):
             text_extension = ".csv"

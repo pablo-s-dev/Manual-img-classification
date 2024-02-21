@@ -4,7 +4,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 from tkinter import messagebox, scrolledtext
 
-not_text_file = lambda f: not f.endswith(text_extension)  and not f.endswith(".py") and "." in f
+not_text_file = lambda f: not f.endswith(text_extension) and not f.endswith(".py") and not f.endswith(".md") and "." in f
 
 args: list[str] = os.sys.argv
 
